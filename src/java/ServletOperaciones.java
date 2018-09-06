@@ -72,7 +72,7 @@ public class ServletOperaciones extends HttpServlet {
         else
         if(OPERACION.equals("cos")){if(NUMERO1==90 || NUMERO2==270)
             {RESU=0;
-                MSJ="LA TANGENTE DE 90 O 270 SE INDETERMINA";}
+                MSJ="El COSENO DE 90 O 270 SE INDETERMINA";}
         else{
             
              RESU=(Math.cos(Math.toRadians(NUMERO1)));
