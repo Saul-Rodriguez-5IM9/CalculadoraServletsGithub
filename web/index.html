@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>MI CALC</title>
+        <script>
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="MiCSS.css">
+    </head>
+    <body>
+        <div>
+            <center><h1>CALCULADORA</h1></center>
+            <form method="POST" action="ServletOperaciones"><br><br>
+                Numero 1 <input type="number" name="numero1" value="0" class="numero"> 
+                Operacion <select name="operacion" class="operacion">
+                    <option value=""> </option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="sen">sen</option>
+                    <option value="cos">cos</option>
+                    <option value="tan">tan</option>
+                    <option value="potencia">potencia</option>
+                    <option value="doble">doble</option>
+                    <option value="cuadrado">cuadrado</option>
+                </select>
+                Numero 2 <input type="number" name="numero2" value="0" class="numero"> 
+                <input type="submit" value="igual" name="igual" class="boton"><br><br>
+                *Si va a ulilizar funciones trigonométricas, cuadrado o doble, solo introduzcan "Numero 1"*
+            </form>
+        </div>
+    </body>
+</html>

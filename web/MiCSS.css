@@ -1,0 +1,40 @@
+body {
+  padding: 20px;
+  background: yellow;
+  position: relative;
+}
+.numero{
+    border-radius: 30px;
+        transition: all 2s ease;
+
+    
+}
+.numero:hover{
+    background-color:  cyan;
+    transition: all 2s ease;
+}
+.boton{
+    height: 30px;
+    width: 40px;
+    color:white;
+   background-color: blue;
+       transition: all .5s ease-in-out;
+
+}
+.boton:hover{
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 50px;
+    transition: all .5s ease-in-out;
+}
+.operacion{
+    background-color: lawngreen;
+    transition: all 1s ease;
+}
+.operacion:hover{
+    background-color: aqua;
+    transition: all 1s ease;
+}
+
