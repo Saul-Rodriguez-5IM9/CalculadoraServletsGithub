@@ -17,7 +17,7 @@ import java.math.*;
  * @author HP-PC
  */
 public class ServletOperaciones extends HttpServlet {
-    int NUMERO1, NUMERO2=0, k=1;
+    double NUMERO1, NUMERO2=0, k=1;
     double RESU=0;
     
     String OPERACION, MSJ="";
