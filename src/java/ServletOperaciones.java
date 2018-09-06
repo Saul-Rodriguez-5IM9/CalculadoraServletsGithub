@@ -62,6 +62,7 @@ public class ServletOperaciones extends HttpServlet {
             else
             RESU=NUMERO1/NUMERO2;
             MSJ="";
+            
         }
         else
         if(OPERACION.equals("sen")){
